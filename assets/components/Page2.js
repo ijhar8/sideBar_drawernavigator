@@ -13,11 +13,11 @@ export class PageTwo extends Component {
         
             <View style={{
                 flex: 1,
-                backgroundColor: '#4734ac',
+                backgroundColor: 'steelblue',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}>
-                <Text style={{ fontWeight: 'bold', fontSize: 22, color: 'white' }}>
+                <Text style={{  fontSize: 33, color: 'white' }}>
                     i am page 2
                 </Text>
                 

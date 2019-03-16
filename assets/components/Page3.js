@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { View, Text, TouchableHighlight, Image } from 'react-native';
 import { Header } from './header';
 
-export class PageOne extends Component {
+export class PageThree extends Component {
 
     render() {
         return (<View style={{
@@ -13,12 +13,12 @@ export class PageOne extends Component {
         
             <View style={{
                 flex: 1,
-                backgroundColor: 'steelblue',   
+                backgroundColor: 'steelblue',
                 alignItems: 'center',
                 justifyContent: 'center'
             }}>
-                <Text style={{ fontSize: 30, color: 'white' }}>
-                    i am page 1
+                <Text style={{  fontSize: 33, color: 'white' }}>
+                    i am page 3
                 </Text>
                 
             </View>

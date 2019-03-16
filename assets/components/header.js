@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableHighlight, Image } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
+
+
 
 
 export  class Header extends Component {
@@ -8,14 +11,12 @@ export  class Header extends Component {
             height: 70,
             flexDirection: 'row',
             justifyContent: 'flex-start',
-            alignItems: 'center'
+            alignItems: 'center',
+            backgroundColor: 'skyblue'
         }}>
             <TouchableHighlight style={{ marginLeft: 10, marginTop: 15 }}
                 onPress={() => { this.props.navigation.openDrawer() }}>
-                <Image
-                    style={{ width: 32, height: 32 }}
-                    source={{uri: 'https://png.icons8.com/ios/2x/menu-filled.png'}}
-                />
+                <Ionicons name="md-menu" size={40}  />
             </TouchableHighlight>
         </View>);
     }
